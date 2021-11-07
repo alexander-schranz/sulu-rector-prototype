@@ -1,0 +1,21 @@
+{
+    "name": "sulu/rector",
+    "description": "Instant fixes and upgrade of sulu versions.",
+    "type": "rector-extension",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sulu\\Rector\\": "src/"
+        }
+    },
+    "require": {
+        "rector/rector": "^0.11.60"
+    },
+    "extra": {
+        "rector": {
+            "includes": [
+                "config/config.php"
+            ]
+        }
+    }
+}
